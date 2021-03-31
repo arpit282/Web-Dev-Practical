@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+ 
+<style>
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        }
+
+
+</style>
+<body>
+
+    <div class="container m-5 p-5">
+    <table class="table table-bordered text-center align-middle center m-5 p-5" cellpadding="15">
+        <thead>
+            <tr>
+                <th scope="col" colspan="8">Guru Tegh Bahadur Institue of Technology</th>
+              </tr>
+            <tr>
+                <th scope="col" colspan="4">Student Name</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Enrollment</th>
+                <th scope="col">Course</th>
+              </tr>
+        </thead>
+        <tbody>
+          <tr >
+            <td colspan="4" > <br> Arpit Singh</td>
+            <td>9856231245</td>
+            <td>41776803118</td>
+            <td rowspan="2" class="text-center m-4">Information Technology</td>
+          </tr>
+          <tr>
+            <td colspan="4" > <br> Apurv Verma</td>
+            <td>9856231245</td>
+            <td>41276803118</td>
+          </tr>
+          <tr>
+            <td colspan="4" > <br> Abhishek Tiwari</td>
+            <td>9856231245</td>
+            <td>41776596332</td>
+            <td>ECE</td>
+          </tr>
+          
+          <tr>
+              <th scope='col' colspan="8" > Welcome to IT3</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>

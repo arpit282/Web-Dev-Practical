@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inline.css">
+    <title>Inline</title>
+</head>
+
+<style>
+ 
+    #grid{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .module{
+        height: 50px;
+        border: 1px dotted #2e2e2e;
+        width: 50rem;
+        text-align: center;
+        vertical-align: middle;
+        margin: 20px;
+    }
+
+</style>
+<body>
+    <h1 id="grid" style="margin-top: -250px;width: 100%; margin-left: 350px;color:crimson">Inline, Internal and External CSS</h1>
+    <section id="grid">
+        <article class="module" style="font-size: 38px;font-weight: 900;" >One</article>
+        <article class="module">Two</article>
+        <article class="module">Three</article>
+        <article class="module">Four</article>
+        <article class="module">Five</article>
+      </section>
+
+</body>
+</html>

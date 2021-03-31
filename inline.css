@@ -1,0 +1,16 @@
+body{
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+
+}
+.module:nth-child(odd) {
+    background: linear-gradient(45deg,#bbdd5f,rgb(14, 202, 177));
+    
+    }
+.module:nth-child(even) {
+    background: linear-gradient(90deg,rgb(14, 202, 177),#bbdd5f);
+    color: inherit !important;
+    font-family: inherit;
+    font-size: 34px;
+}
